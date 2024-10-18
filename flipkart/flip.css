@@ -705,6 +705,7 @@ li{
         height: 360px;
         border-radius: 10px;
         margin-left: 60px;
+        margin-top: 170px;
     }
     
     .top-selling-smartphones .content {
@@ -736,10 +737,25 @@ li{
     .content{
         margin-left: 60px;
         margin-top:30px
+        
+    }
+    .container8 {
+        padding: 5px;
+    }
+
+    .container8 h4 {
+        font-size: 20px; /* Smaller headings on mobile */
+    }
+
+    .container8 p.def {
+        font-size: 15px; /* Smaller paragraph text */
+        line-height: 1.0;
+        margin-bottom: 15px;
     }
     body{
         overflow-x: hidden;
     }
+   
     }
     
     
