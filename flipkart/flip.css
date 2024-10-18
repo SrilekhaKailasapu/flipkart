@@ -472,6 +472,9 @@ li{
 
 /* Mobile styles */
 @media (max-width: 768px) {
+    .header{
+        margin-left: 1px;
+    }
     #nav1 {
         flex-direction: column;
         align-items: flex-start;
@@ -486,12 +489,19 @@ li{
     }
 
     .search-bar {
-        width: 100px;
+        width: 80px;
         margin-top: 30px;
+        margin-left: 0x;
     }
-
+    .search-bar input {
+        width: 50%; 
+        font-size: 12px; 
+        padding: 3px; 
+        height: 20px; 
+    }
     .search-bar input {
         font-size: 12px; /* Smaller input font size */
+        
     }
 
     #nav1 span {
@@ -621,7 +631,7 @@ li{
       }
     
     .func{ 
-        padding-left: 50%;
+        padding-left: 30%;
         color: #d1b00d;
     } 
 
