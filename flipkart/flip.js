@@ -43,12 +43,7 @@ let arr = [
       title: "Beauty,Toys and More",
       href: "",
     },
-    {
-      img_src:
-        "https://rukminim1.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100",
-      title: "Two Wheelers",
-      href: "",
-    },
+    
   ];
 arr.map((element)=>{
   let image = document.createElement('img');
